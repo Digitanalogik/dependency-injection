@@ -6,12 +6,12 @@ import org.springframework.context.annotation.Profile;
 
 @Service
 @Primary
-@Profile("en")
-public class PrimaryGreetingService implements GreetingService {
+@Profile("es")
+public class PrimarySpanishGreetingService  implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return "Hello - Primary Greeting service";
+        return "Servicio de Saludo Primario";
     }
 
 }
