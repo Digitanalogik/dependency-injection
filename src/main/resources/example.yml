@@ -1,0 +1,41 @@
+# This is a comment
+
+# Single variable
+name: John
+
+# Array of options
+names: # Comment the rest of the line
+    - John
+    - Paul
+    - Ringo
+
+# If you need the hash character - use quotes
+pound_sign: "#"
+
+# Object with properties
+book:
+    author: Joe Buck
+    publisher: Random House
+
+# Booleans
+truth: yes
+another_truth: True
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "My courses: One, Two, Three"
+
+# Multiline string - with line delimiters included
+include_new_lines: |
+    First line
+    Second entry
+    Last but not least
+
+# Multiline string - actually just one line
+ignore_new_lines: >
+    this is
+    just one long
+    string
