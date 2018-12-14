@@ -14,7 +14,10 @@ import org.springframework.core.env.Environment;
 @Configuration
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 @PropertySources({
+        // Joku kommentti, mitä täältä ladataan
         @PropertySource("classpath:datasource.properties"),
+
+        // Toinen tiedosto, josta ladataan muuta
         @PropertySource("classpath:jms.properties")
 })
 public class PropertyConfig {
